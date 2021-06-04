@@ -3,7 +3,7 @@ import inotify.adapters
 def _main():
     i = inotify.adapters.Inotify()
 
-    i.add_watch('/home/VZADCLOUD/v545583/stats')
+    i.add_watch('/home/VZADCLOUD/vx/stats')
 
     for event in i.event_gen(yield_nones=False):
         (_, type_names, path, filename) = event
