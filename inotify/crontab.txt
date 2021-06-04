@@ -1,0 +1,1 @@
+*/5 * * * * /bin/python /home/VZADCLOUD/v545583/inotify/generateStats.py
