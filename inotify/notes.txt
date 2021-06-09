@@ -16,3 +16,10 @@ cntlm - helps with corporate proxy
   155  2021-06-08 19:20:12 journalctl docker.service
   156  2021-06-08 19:21:14 tail -f /var/log/messages
   159  2021-06-08 19:24:02 systemctl status cntlm
+
+
+
+Pulsar:
+
+docker run -it -e PULSAR_MEM="-Xms200m -Xmx200m" apachepulsar/pulsar  bin/pulsar standalone
+
