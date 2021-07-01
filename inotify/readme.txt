@@ -10,6 +10,8 @@ pbrun beroot
 Python helper module: Not strictly required. Just used here to demonstrate capability of inotify-tools
 https://pypi.org/project/inotify/
 pip3.6 install inotify
+pip3.6 install pulsar-client
+pip3.6 install fastavro
 
 python3.6 inotifyScript.py
 
